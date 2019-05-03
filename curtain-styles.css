@@ -1,0 +1,83 @@
+body {
+  margin: -3em 0 0 0;
+}
+
+section {
+  /* margin: -1em 0 -2.6em 0; */
+}
+
+.text--white {
+  color:white;
+}
+
+.text--black {
+  color:black;
+}
+
+.box {
+  margin: 3em;
+  padding: 2em;
+  height: 200px;
+  width: 50%;
+  position: 30;
+}
+
+.cd-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cd-section--bg-fixed {
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+/* components */
+
+.text-box {
+  font-size: 20px;
+  margin: 10% 50% 0 10%;
+  padding: 2em;
+  background-color: rgba(9,8,7,0.42);
+  border-radius: 50%;
+}
+
+
+/* backgrounds */
+.cd-section:nth-child(1) {
+  background-image:  url("images/California-hillside-wildflowers.jpg");
+}
+
+.cd-section:nth-child(2) {
+  background-color:white;
+}
+
+.cd-section:nth-child(3) {
+  background-image: url("images/California-hillside-wildflowers-tint-2.jpg");
+}
+
+.cd-section:nth-child(4) {
+  background-color:white;
+}
+
+.cd-section:nth-child(5) {
+  background-image: url("images/California-hillside-wildflowers-tint-1.jpg");
+}
+
+.cd-section:nth-child(6) {
+  background-color:white;
+}
+
+.cd-section:nth-child(7) {
+  background-image: url("images/California-hillside-wildflowers-scorched.jpg");
+}
+
+.cd-section:nth-child(8) {
+  background-color:white;
+}
+
+.cd-section:nth-child(9) {
+  background-image: url("images/California-hillside-wildflowers-bw.jpg");
+}
+/* all other background images */
